@@ -2,25 +2,25 @@ package com.rhtoolrental;
 
 public class Tool {
     private String code;
-    private String type;
+    private String toolType;
     private String brand;
 
     public Tool(String code, String type, String brand) {
         this.code = code;
-        this.type = type;
+        this.toolType = type;
         this.brand = brand;
     }
 
     public String getCode() {
         return code;
     }
-    public String getType() {
-        return type;
+    public String getToolType() {
+        return toolType;
     }
     public String getBrand() {
         return brand;
     }
     public String toString() {
-        return code + " " + type + " " + brand + " ";
+        return code + " " + toolType + " " + brand + " ";
     }
 }
